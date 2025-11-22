@@ -11,7 +11,7 @@ int main() {
 
     while (temp != 0) {
         r = temp % 10;
-        sum += r * r * r;   // cube of each digit
+        sum += r * r * r;  
         temp /= 10;
     }
 
